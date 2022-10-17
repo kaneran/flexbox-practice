@@ -7,10 +7,7 @@ p {
 .container {
   border: 10px solid gold;
   display: flex;
-  min-height: 100vh;
   min-width: 100vh;
-  align-items: center;
-  justify-content: center;
 }
 
 .box {
@@ -20,10 +17,12 @@ p {
   border: 10px solid orangered;
   min-width: 20vh;
   margin: 5px;
+  flex: 1 1 400px;
 }
 
 .box1 {
   background-color: green;
+  flex-grow: 2;
 }
 .box2 {
   background-color: violet;
